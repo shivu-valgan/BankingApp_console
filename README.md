@@ -61,26 +61,12 @@ CREATE TABLE accounts (
 3. Update DB credentials in `DBConnection.java`:
 
    ```java
-   private static final String url = "jdbc:mysql://localhost:3306/bankdb";
-   private static final String user = "root";
+   private static final String url = "jdbc:mysql://localhost:3306/yourdbname";
+   private static final String user = "dbuser";
    private static final String pass = "your_password";
    ```
 4. Run the `Main.java` or `BankService.java` file
 5. Use console to interact with the system
-
----
-
-## 📌 Sample Console Output
-
-```
-1. Add Account
-2. View Accounts
-3. Deposit
-4. Withdraw
-5. Check Balance
-6. Delete Account
-7. Exit
-```
 
 ---
 
@@ -90,8 +76,6 @@ CREATE TABLE accounts (
 ├── BankService.java        // Main service logic
 ├── DBConnection.java       // Handles DB connection
 ├── Main.java               // Entry point
-├── Custom Exceptions       // InvalidPinException, InsufficientFundsException
-├── SQL Dump                // Table creation
 ```
 
 ---
@@ -100,24 +84,6 @@ CREATE TABLE accounts (
 
 **Shivakumar**
 Aspiring Full Stack Java Developer
-LinkedIn: [@shivu-valgan](https://www.linkedin.com/in/shivu-valgan)
 
 ---
 
-## ✅ Status
-
-✔️ Completed phase-1 with core JDBC
-🔜 To be extended using **Spring Boot + JPA + REST APIs** for a full backend project
-
----
-
-## 📄 License
-
-This project is open for learning and modification. Free to use.
-
-```
-
----
-
-Let me know if you'd like a shorter version or if you want me to push this to a `.md` file for direct use on GitHub.
-```

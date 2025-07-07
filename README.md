@@ -65,8 +65,9 @@ CREATE TABLE accounts (
    private static final String user = "dbuser";
    private static final String pass = "your_password";
    ```
-4. Run the `Main.java` or `BankService.java` file
-5. Use console to interact with the system
+4. Download mysql jar file to add in dependecies(it is essential for connecting db to java for loading the drivers)
+5. Run the `Main.java` or `BankService.java` file
+6. Use console to interact with the system
 
 ---
 
